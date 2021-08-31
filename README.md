@@ -4,8 +4,8 @@
 Spring+SpringMVC+Mybatis+SpringBoot+Mysql8+LayUI
 #开发环境
 JDK1.8、IDEA、MySql8
-#使用需知
+# 使用需知
 1.首先在本地导入crm_sql中的.sql文件，生成数据库所需要的的各种表
-2.pom文件中的mysql依赖已被注释，在idea中运行需将其取消，并在配置文件中将版本改为
-3.将项目部署到Tomcat或Jetty中运行
+2.由于本项目之前是打成war包在Linux系统上部署的，若要在idea中运行，需将在pom文件中将部分与war包相关的注释掉
+3.运行项目
 4.登录模块用户密码在数据库中已加密，默认密码是888888
